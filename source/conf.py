@@ -82,6 +82,16 @@ html_theme_options["social"][0].update({
         },
 )
 
+html_theme_options["palette"][1].update({
+    "accent": "teal",
+    "primary": "deep-orange",
+})
+
+html_theme_options["palette"][0].update({
+    "accent": "teal",
+    "primary": "deep-orange",
+})
+
 html_logo = "white.svg"
 
 html_title = project
