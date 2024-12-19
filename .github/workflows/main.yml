@@ -1,4 +1,4 @@
-name: Rowhammer tester docs
+name: Build docs
 
 on:
   push:
