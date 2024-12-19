@@ -19,7 +19,6 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Generate documentation
         run: |
-          cd source
           make html
       - uses: actions/upload-artifact@v3
         with:
