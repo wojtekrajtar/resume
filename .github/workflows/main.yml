@@ -1,10 +1,6 @@
 name: Build docs
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -20,7 +16,6 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y texlive-full
           python -m pip install -r requirements.txt
       - name: Generate documentation
         run: |
