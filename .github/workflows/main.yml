@@ -23,7 +23,7 @@ jobs:
           make html
       - uses: actions/upload-artifact@v3
         with:
-          name: gh-page
+          name: github-pages
           path: build/html
   deploy:
     # Add a dependency to the build job
